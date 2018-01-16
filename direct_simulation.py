@@ -30,8 +30,7 @@ def gen_gaussian_spherical_initial_state(N, mean=0, variance=1):
 
 def gen_gaussian_J(N, J, eta, symmetry_threshold=0.99):
     """gen_gaussian_J: generate a matrix J with elements drawn from 
-     a gaussian
-     eta = 1 doesn't work. Anything above symmetry_threshold (0.99)
+     a gaussian. Anything above symmetry_threshold (0.99)
      generate a symmetric matrix.
 
     :param N: Size of matrix
